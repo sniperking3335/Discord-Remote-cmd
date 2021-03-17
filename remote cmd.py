@@ -21,10 +21,8 @@ async def exec(ctx, *, text):
 @client.command()
 async def os(ctx):
     oschk= sys.platform
-    try:
-        await ctx.send(f'{oschk}')
-    except:
-        pass
+    await ctx.send(f'{oschk}')
+
 
 @client.command()
 async def oscmds(ctx):
