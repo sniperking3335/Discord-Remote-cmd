@@ -1,7 +1,6 @@
 import os
 import sys
 import discord
-from sys import platform
 from discord.ext import commands
 
 client = commands.Bot(command_prefix="*")
