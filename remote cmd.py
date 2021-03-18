@@ -1,4 +1,3 @@
-import os
 import sys
 import discord
 from sys import platform
@@ -14,6 +13,7 @@ async def on_ready():
 
 @client.command()
 async def exec(ctx, *, text):
+    import os
     message = ctx.message
     os.system(f"{text}")
     await ctx.send(f'executing the command `{text}`...')
