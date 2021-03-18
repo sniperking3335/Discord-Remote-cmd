@@ -5,7 +5,7 @@ Modules required: discord | pip install discord
 
 You must create a discord bot in order to run this.
 
-Command list: *exec command | *os | *stopclient | *oscmds
+Command list: *exec command | *os | *oscmds
 
 Add me on discord: MEE6 sucks#0600
 Follow me on instagram: @sniper_king3335
