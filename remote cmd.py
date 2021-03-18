@@ -28,12 +28,4 @@ async def os(ctx):
 async def oscmds(ctx):
     await ctx.send('win32 - windows(batch)\nlinux or linux2 - linux(bash)')
 
-@client.command()
-async def stopclient(ctx):
-    await ctx.send('stopping the bot...')
-    try:
-        os.system('exit')
-    except:
-        pass
-
 client.run(''+token)
